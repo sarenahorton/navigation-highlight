@@ -5,13 +5,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-body {
-  line-height: 1.5;
-  font-family: Georgia, serif;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
 
 header {
   background-color: #ffe500;
@@ -20,14 +13,22 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
 h1, h2 {
   font-family: "Sigmar One";
   color: #b20953;
 }
 
-h1 {
-  font-size: 3rem;
+body {
+  line-height: 1.5;
+  font-family: Georgia, serif;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -70,7 +71,7 @@ h2 {
 
 img {
   display: block;
-  width: 50%;
+  width: 98%;
 }
 
 footer {
