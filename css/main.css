@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: white;
 }
 
 nav ul {
@@ -67,8 +68,9 @@ main {
 
 h2 {
   font-size: 1.875rem;
-  margin-top: .5em;
-  margin-bottom: .8em;
+  margin-top: .8em;
+  margin-bottom: .5em;
+  margin-left: .8em;
 }
 
 main p {
